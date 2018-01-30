@@ -8,15 +8,15 @@ var SumOfAllSquares = 0;
 var sumOf_10nos = 0;
 
 for (var i = 0; i <= 10; i++) {
+    
     SumOfAllSquares += Math.pow(i, 2);
+    console.log(SumOfAllSquares);
 };
-
-console.log(SumOfAllSquares);
 
 for (var i = 1; i <= 10; i++) {
     sumOf_10nos += i;
+    console.log(sumOf_10nos);
 };
-console.log(sumOf_10nos);
 
 console.log("sum of the squares: ", SumOfAllSquares);
 console.log("square of the sum: ", Math.pow(sumOf_10nos, 2));
